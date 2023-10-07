@@ -1,0 +1,43 @@
+#-*- mode: org -+-
+#+COLUMNS: %Date(Date) %10TODO %7Clocksum(Clock) %12ITEM %8Effort(Effort){:} %5TAGS %SCHEDULED
+#+TITLE: Towards Regulatory-Compliant MLOps: Oravizio’s Journey from a Machine Learning Experiment to a Deployed Certified Medical Product
+#+DESCRIPTION:
+
+Paper 26 On the Democratization of Machine Learning Pipelines.org
+TODO Summary of Paper
+The paper introduces the growing importance of Machine Learning (ML) and the challenges associated with deploying ML models into production.
+It presents a new framework called Quick Machine Learning (QML) to streamline the development and deployment process for ML projects, particularly in the initial stages of development.
+A real-world case study was conducted to validate the efficiency and utility of QML, which was then compared to an existing tool, DAGsHub.
+TODO Challenges
+The paper highlights several challenges in the current ML landscape:
+The high growth of ML has led to an increasing demand for efficient development and deployment methods.
+Many companies, especially smaller ones, struggle with ML adoption due to high resource demands.
+Numerous ML projects never reach producti
+on due to lack of resources, infrastructure, and prolonged deployment times.
+There's a mismatch between the capabilities of existing MLOps tools and the needs of companies in the initial experimental stages of ML development.
+TODO Benefits
+QML provides:
+A lightweight and modular pipeline.
+An interface that remains consistent even when the underlying pipeline is changed.
+Increased levels of automation compared to some existing solutions like DAGsHub.
+The ability to adapt the pipeline to changing project needs.
+TODO Tool
+QML operates as a CLI tool with two primary commands: start and edit.
+It offers a well-structured directory system for pipelines.
+QML integrates with other open-source tools to create comprehensive ML pipelines.
+TODO Approach
+The paper represents the cyclical nature of ML projects and introduces decision nodes emphasizing that ML development is iterative.
+The proposed framework seeks to minimize setup overhead and infrastructure costs while offering extensibility.
+A case study was conducted to practically demonstrate and validate the approach of QML.
+TODO Metrics
+Performance metrics are essential to validate the efficiency of an ML pipeline.
+The paper mentions an F1 score as a measure of performance in the case study, with scores of 83% and 81% when comparing the QML pipeline to DAGsHub.
+TODO Responsible AI mentions
+(Based on the content provided, there were no specific mentions of Responsible AI. It's essential to integrate Responsible AI practices in ML development, and QML can be a platform to facilitate that.)
+TODO How to Implement Responsible AI
+Integrate fairness checks at every step of the pipeline.
+Ensure transparency in model decisions by offering explanations.
+Monitor models continuously post-deployment to track any biases or discrepancies.
+Include diverse data in the training process to avoid biases.
+Maintain data privacy and security throughout the ML workflow.
+These "TODOs" can guide the drafting or enhancement of sections in your document, providing a structured approach to address each point.

@@ -1,0 +1,41 @@
+#-*- mode: org -+-
+#+COLUMNS: %Date(Date) %10TODO %7Clocksum(Clock) %12ITEM %8Effort(Effort){:} %5TAGS %SCHEDULED
+#+TITLE: Towards Regulatory-Compliant MLOps: Oravizio’s Journey from a Machine Learning Experiment to a Deployed Certified Medical Product
+#+DESCRIPTION:
+
+* TODO Paper 27 Comparative Evaluation of Machine Learning Development Lifecycle Tools
+Summary of Paper:
+The paper delves deep into the Software Development Lifecycle (SDLC) and the Machine Learning Development Lifecycle (MLDLC), highlighting the differences and intricacies of each. The core tenets of a computer program are discussed, followed by an exploration of the SDLC and its various stages. In parallel, the MLDLC is also dissected, emphasizing the iterative nature of machine learning development, from model creation to deployment. A notable mention is the introduction of tools like MLflow that offer open interfaces and structures to manage the ML lifecycle. Furthermore, commercial tools like AWS SageMaker, Azure Machine Learning, and Google Tensorflow are comparatively evaluated in the context of ML pipeline development.
+
+Challenges:
+
+Overlapping and sometimes confusing terminology in computer technology.
+Ensuring consistent and efficient progression through the stages of the ML lifecycle.
+Navigating the nuances of various tools and platforms available for ML development.
+Achieving the balance between ease of use and flexibility in ML tools.
+Integration of ML tools with existing enterprise systems.
+Constant need for model monitoring, updating, and retraining given the dynamic nature of data and environments.
+TODO Benefit:
+
+The tools and platforms discussed provide streamlined processes to manage the entire ML development lifecycle. They offer capabilities for easy model deployment, monitoring, retraining, and integration with other services. Additionally, by using these tools, developers can ensure reproducibility, traceability, and better collaboration in ML projects.
+
+TODO Tool:
+MLflow is highlighted as an open-source tool offering functionalities like tracking, projects, and models. It provides an open interface compatible with any ML library, algorithm, deployment tool, or language. Furthermore, its open-source nature facilitates easy sharing and collaboration.
+
+TODO Approach humans to be involved in the loop:
+The paper touches upon the importance of human involvement, especially when monitoring models post-deployment and in the feedback loops. A human-in-the-loop troubleshooting mechanism is proposed to address errors that arise in ML systems. Continuous feedback from human monitors ensures the model's accuracy and relevance over time.
+
+TODO Metrics:
+While the paper dives deep into various stages of ML development, metrics like Disparate Impact fairness metric are mentioned in the context of model verification. These metrics ensure that the models perform as intended and adhere to the desired standards of accuracy and fairness.
+
+TODO Responsible AI mentions:
+The paper brings up concepts like explainable AI, which emphasizes understanding the behavior of ML models. It touches upon the importance of transparency, accountability, and ethical considerations in AI. Responsible AI is about creating AI solutions that are fair, transparent, ethical, and accountable.
+
+TODO How to implement Responsible AI:
+
+Emphasize on explainable AI models that allow users to understand the decisions made by these models.
+Use fairness metrics like the Disparate Impact to ensure that models do not inadvertently perpetrate or amplify biases.
+Prioritize transparency by using open-source tools and platforms and by sharing methodologies and findings.
+Incorporate feedback loops that involve human judgment to continuously refine and correct AI models.
+Stay updated with regulations and ethical guidelines related to AI and ensure compliance.
+Engage in continuous learning and training to understand the ever-evolving landscape of Responsible AI.

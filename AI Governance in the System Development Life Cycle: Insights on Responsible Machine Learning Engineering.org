@@ -1,0 +1,32 @@
+#-*- mode: org -+-
+#+COLUMNS: %Date(Date) %10TODO %7Clocksum(Clock) %12ITEM %8Effort(Effort){:} %5TAGS %SCHEDULED
+#+TITLE: Towards Regulatory-Compliant MLOps: Oravizio’s Journey from a Machine Learning Experiment to a Deployed Certified Medical Product
+#+DESCRIPTION:
+
+TODO Paper 25 AI Governance in the System Development Life Cycle: Insights on Responsible Machine Learning Engineering.org
+Challenges
+Data Privacy and Governance: Data sharing across organizations could be problematic from a governance perspective.
+Model Interpretability or explanability: As your paper pointed out, black-box models can be hard to understand, posing a governance challenge when deploying models across multiple organizations.
+The informants noted that the more complex ML models become, the more difficult it is for humans to interpret and understand them. As an example, Informant 3 stated:
+
+
+Automated Monitoring: Implementing automated monitoring solutions that satisfy all organizations involved could be challenging.
+TODO Benefit
+Standardization: A shared MLOps pipeline can bring about standardized practices for AI governance.
+Efficiency: Resources like computational power and data storage can be more efficiently allocated.
+TODO Tool
+CI/CD pipelines: You already mentioned CI/CD in your paper, so tools that help implement this would be beneficial. Jenkins, GitLab CI, and Travis CI could be options.
+XAI Tools: Libraries such as SHAP and LIME for model explanation.
+TODO Approach
+Iterative Development: Following Agile methodologies, as suggested in your paper, could be beneficial.
+Automated Monitoring: Use anomaly detection for real-time governance.
+TODO Metrics
+Model Accuracy: As your paper suggests, sometimes a less accurate but more interpretable model may be preferable.
+Anomaly Rates: Could be a key metric for automated monitoring.
+TODO Responsible AI mentions
+Your paper touched upon the need for governance, particularly in critical fields like healthcare. This inherently points towards the necessity for responsible AI. While you didn't explicitly discuss Responsible AI, it's a significant underlying theme.
+
+TODO How to implement Responsible AI
+Transparency: Leveraging Explainable AI (XAI) tools like SHAP and LIME, as mentioned in your paper.
+Automated Monitoring: Again, a point from your paper, monitoring for bias and anomalies plays into responsible AI.
+Ethical Guidelines: Establishing a set of ethical guidelines that align with governance goals can help in the implementation of responsible AI.
