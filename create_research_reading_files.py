@@ -133,6 +133,8 @@ template = """
 
 ## Challenges:
 
+## How to implement responsible AI methods:
+
 ## Reviewer's Comments:
 """
 
