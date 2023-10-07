@@ -2,6 +2,8 @@
 
 ## Paper Title: Model Provenance Management in MLOps Pipeline
 
+https://dl.acm.org/doi/pdf/10.1145/3512850.3512861
+
 ## Authors: Songzhu Mei, Cong Liu, Qinglin Wang, Huayou Su
 
 ## Publication Year: 2022
