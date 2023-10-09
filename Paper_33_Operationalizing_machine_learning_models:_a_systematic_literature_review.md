@@ -1,7 +1,6 @@
+# Paper 33:
 
-# Paper X:
-
-## Paper Title: Looper: An End-to-End ML Platform for Product Decisions
+## Paper Title: Operationalizing machine learning models: a systematic literature review
 
 ## Authors: [Names of the Authors]
 

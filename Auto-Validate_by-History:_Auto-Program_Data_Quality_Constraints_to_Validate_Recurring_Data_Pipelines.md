@@ -1,5 +1,4 @@
-
-# Paper X:
+# Paper X: Rejected
 
 ## Paper Title: Auto-Validate by-History: Auto-Program Data Quality Constraints to Validate Recurring Data Pipelines
 
