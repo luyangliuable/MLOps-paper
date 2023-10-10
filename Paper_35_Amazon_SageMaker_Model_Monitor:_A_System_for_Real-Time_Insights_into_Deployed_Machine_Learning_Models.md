@@ -1,7 +1,7 @@
 
-# Paper X:
+# Paper 35:
 
-## Paper Title: Survey of automation practices in model-driven development and operations
+## Paper Title: Amazon SageMaker Model Monitor: A System for Real-Time Insights into Deployed Machine Learning Models
 
 ## Authors: [Names of the Authors]
 
@@ -24,3 +24,4 @@
 ## How to implement responsible AI methods:
 
 ## Reviewer's Comments:
+
